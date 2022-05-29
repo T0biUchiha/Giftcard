@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.desk{
+    background-color: rgb(255 144 0 / 86%);
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    width: 35%;
+    height: auto;
+    margin: auto;
+    margin-top: 2%;
+    padding: 0% 2%;
+}
+.mac{
+    background-color: rgba(219, 218, 217, 0.86);
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    width: 35%;
+    height: auto;
+    margin: auto;
+    margin-top: 2%;
+    padding: 0% 2%;
+}
+
+.firstsec{
+    width: 60%;
+    /* border: 1px solid green; */
+    padding: 2%;
+    line-height: 60px;
+}
+.firstsec button{
+    background-color: black;
+    color: white;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.firstsec h1{
+    width: 80%;
+    font-size: 40px;
+}
+
+.firstsec h2{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.firstsec p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.secondsec{
+    width: 40%;
+    padding: 4% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    /* border: 1px solid yellow; */
+    
+}
+
+.secondsec img:nth-child(1){
+    width: 120px;
+    height: 60px;
+
+}
+
+.secondsec img:nth-child(2){
+    
+    width: 15%;
+    height: 10%;
+}
